@@ -12,7 +12,7 @@ _**Resumo:** Este repositório descreve o projeto em escala de um sistema para c
 
 **Figura 1 - Esquema de abastecimento de água do projeto proposto**
 
-imagem
+![](src/img/prototipo.jpg)
 
 **Figura 2 - Protótipo em escala utilizado**
 
@@ -30,7 +30,7 @@ imagem
 - 05 Resistores (1kΩ)
 - Cabos jumpers para a conexão do materiais à placa e à protoboard
 
-imagem
+![](src/img/configuracao.jpg)
 
 **Figura 3 - Configuração**
 
