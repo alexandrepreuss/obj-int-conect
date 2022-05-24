@@ -16,8 +16,6 @@ a)![](src/img/prototipo.png) b)![](src/img/detalhe_sensor1.png)
 
 **Figuras 2a e 2b - Protótipo em escala utilizado e detalhe da montagem dos sensores**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rkg3FCCqfL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ---
 ## Funcionamento
 ### Sistema
@@ -34,6 +32,10 @@ O funcionamento da bomba é interrompido automaticamente em duas situações:
 Existe também a possibilidde de um controle via internet, com a utilização do protocolo MQTT. Porém, há uma verificação no código para que esse controle atenda as condições acima, prevenido que ocorra o acionamento indevido da bomba.
 
 Os dados gerados a cada ciclo de código são enviados para um servidor Node-Red, onde esses dados são analizados no fluxo abaixo e atualizam os tópicos publicados no Broker MQTT que por sua vez são utilizados para atualizar o dashboard de controle do projeto.
+
+**Aprentação do funcionamento do protótipo - video**
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rkg3FCCqfL0/0.jpg)](https://www.youtube.com/watch?v=rkg3FCCqfL0)
 
 ---
 
