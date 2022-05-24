@@ -62,7 +62,7 @@ Para a utilização do código na placa Arduíno é necessária a instação do 
 Selecionar o arquivo 'monitoring-system.ino', dentro da pasta 'src/monitoring-system' e carregar na placa Arduino.
 
 
-### Servidor Node-RED
+## Servidor Node-RED
 O Node-RED é uma ferramenta de programação baseada em fluxo (_flow_), originalmente desenvolvida pela IBM e atualmente faz parte da OpenJS Foundation.
 A instalação do Node-RED é feita via npm (_Node Package Manager_), o gerenciador de pacotes do Node.js.
 Inicialmente, o Node-RED disponibiliza algumas paletas básicas de nós (_nodes_), com os quais podemos criar de forma simples o fluxo, arrastando e conectando uns aos outros. Alguns nós permitem a programação via JavaScript. Além dos nós disponibilizados, podemos também adicionar diversas novas paletas e bibliotecas, como por exemplo, nós que possibilitam a utilização de dashboards. A criação e edição dos fluxos é realizada em qualquer navegador, após inicializar o Node-RED via terminal.
