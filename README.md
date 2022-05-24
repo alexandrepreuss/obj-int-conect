@@ -90,11 +90,15 @@ Para a utilização dos nós de conexão MQTT com o Broker é necessário criar 
 
 ![](src/img/no-functions.jpg)
 
-**Figura 8 - Código dos demais nós functions**
+**Figura 8 - Código do nó function ligado ao tópico mack-2022-obj-int-conect/pump/mqtt**
+
+![](src/img/no-mqtt.jpg)
+
+**Figura 9 - Código dos demais nós functions**
 
 ![](src/img/no-change.jpg)
 
-**Figura 9 - Configuração do nó change**
+**Figura 10 - Configuração do nó change**
 
 ---
 
@@ -110,4 +114,4 @@ Foi utilizado no projeto o [HiveMQ](https://mqtt.org/), um broker público e gra
 
 A configuração do Broker é bastante intuitiva, bastando criar uma conta e depois seguir as indicações para criar os tópicos. Crie um tópico para cada medida/variável e depois coloque os endereços nos nós do servidor Node-RED conforme descrito acima. 
 
-Para variáveis de interação com o sistema Arduíno é necessário criar um fluxo de entrada conforme o último fluxo da Figura 4, com o código da Figura 7, terminando com o nó de transmitir via serial e depois tratar essa variável no código do Arduíno conforme a varíavel _mqttCommmand_ do código desse projeto.
+Para variáveis de interação com o sistema Arduíno é necessário criar um fluxo de entrada conforme o último fluxo da Figura 4, com o código da Figura 8, terminando com o nó de transmitir via serial e depois tratar essa variável no código do Arduíno conforme a varíavel _mqttCommmand_ do código desse projeto.
