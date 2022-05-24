@@ -97,7 +97,7 @@ Para mais informações, acesse a [documentação do Node-RED](https://nodered.o
 
 ---
 
-### Protocolo MQTT e Broker
+## Protocolo MQTT e Broker
 
 O MQTT é um de protocolo de mensagens leves muito utilizado em Internet das Coisas (IoT - Internet of Things). 
 
@@ -105,7 +105,7 @@ Sua comunicação é feita via tópicos, nos quais é possível publicar ou se i
 
 Para mais informações, acesse a [documentação do MQTT](https://mqtt.org/)
 
-## Broker HiveMQ
+### Broker HiveMQ
 
 Foi utilizado no projeto o [HiveMQ](https://mqtt.org/), um broker público e gratuito, que também possui um _Client_, no qual é possível publicar e se inscrever em tópicos, possibilitando a conexão via internet.
 
