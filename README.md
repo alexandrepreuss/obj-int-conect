@@ -12,9 +12,9 @@ _**Resumo:** Este repositório descreve o projeto em escala de um sistema para c
 
 **Figura 1 - Esquema de abastecimento de água do projeto proposto**
 
-![](src/img/prototipo.png) ![](src/img/detalhe_sensor1.png)
+a)![](src/img/prototipo.png) b)![](src/img/detalhe_sensor1.png)
 
-**Figura 2 - Protótipo em escala utilizado**
+**Figuras 2a e 2b - Protótipo em escala utilizado e detalhe da montagem dos sensores**
 
 ---
 
