@@ -12,7 +12,7 @@ _**Resumo:** Este repositório descreve o projeto em escala de um sistema para c
 
 **Figura 1 - Esquema de abastecimento de água do projeto proposto**
 
-![](src/img/prototipo.jpg)
+![](src/img/prototipo.png)
 
 **Figura 2 - Protótipo em escala utilizado**
 
