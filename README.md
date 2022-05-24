@@ -16,6 +16,8 @@ a)![](src/img/prototipo.png) b)![](src/img/detalhe_sensor1.png)
 
 **Figuras 2a e 2b - Protótipo em escala utilizado e detalhe da montagem dos sensores**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rkg3FCCqfL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 ## Funcionamento
 ### Sistema
