@@ -73,7 +73,8 @@ Para mais informações, acesse a [documentação do Node-RED](https://nodered.o
 
 **Figura 4 - Fluxos**
 
-**Obs:** Para a utilização do fluxo acima são necessários os nós 'node-red-node-serialport' e 'node-red-dashboard', que podem ser instalados via node-red na opção Manage palette.
+**Obs:** Para a utilização do fluxo acima são necessários os nós 'node-red-node-serialport' e 'node-red-dashboard', que podem ser instalados via node-red na opção Manage palette. 
+Para a utilização dos nós de conexão MQTT com o Broker é necessário criar antes os tópicos no Broker.
 
 ![](src/img/no-caixa-baixo.jpg)
 
