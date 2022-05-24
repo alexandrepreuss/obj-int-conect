@@ -22,7 +22,7 @@ a)![](src/img/prototipo.png) b)![](src/img/detalhe_sensor1.png)
 
 O objetivo do sistema é realizar leitura dos níveis de água por meio dos sensores ultrassônicos, sendo um sensor para o reservatório de baixo e o outro para o de cima. O algoritimo converte os valores de leitura em centímetros e armazena nas variáveis _upperDistance_ e _bottomDistance_. Essas variáveis são analisadas no código, comparando-as com os valores de níveis mínimo e máximo (variáveis descritas no código) de seus respectivos reservatórios.
 
-O algoritimo controla o acionamento da bomba d'água, verificando se atende as condições a serguir: caso o sensor do reservatório de baixo apresente uma leiturade um nível de água acima do nível mínimo e o sensor do reservatório de cima apresente uma leitura de nível de água abaixo do máximo. Se as duas condições forem atendidas é acionado o relé e com isso o funcionamento da bomba, tranferindo a água do reservatório de baixo para o de cima.
+O algoritimo controla o acionamento da bomba d'água, verificando se atende as condições a seguir: caso o sensor do reservatório de baixo apresente a leitura de um nível de água acima do nível mínimo *e* o sensor do reservatório de cima apresente uma leitura de nível de água abaixo do máximo. Se as duas condições forem atendidas é acionado o relé e com isso o funcionamento da bomba, tranferindo a água do reservatório de baixo para o de cima.
 
 O funcionamento da bomba é interrompido automaticamente em duas situações:
 
@@ -97,7 +97,7 @@ Para mais informações, acesse a [documentação do Node-RED](https://nodered.o
 
 ---
 
-### Protocolo MQTT
+### Protocolo MQTT e Broker
 
 O MQTT é um de protocolo de mensagens leves muito utilizado em Internet das Coisas (IoT - Internet of Things). 
 
@@ -105,4 +105,8 @@ Sua comunicação é feita via tópicos, nos quais é possível publicar ou se i
 
 Para mais informações, acesse a [documentação do MQTT](https://mqtt.org/)
 
+## Broker HiveMQ
+
 Foi utilizado no projeto o [HiveMQ](https://mqtt.org/), um broker público e gratuito, que também possui um _Client_, no qual é possível publicar e se inscrever em tópicos, possibilitando a conexão via internet.
+
+A configuração do Broker é bastante intuitiva, bastando criar uma conta e depois seguir as indicações para criar os tópicos. Crie um tópico para cada medida/variável e depois coloque os endereços nos nós do servidor Node-RED conforme descrito acima.
