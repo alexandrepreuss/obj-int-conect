@@ -100,9 +100,7 @@ Para a utilização dos nós de conexão MQTT com o Broker é necessário criar 
 
 ## Protocolo MQTT e Broker
 
-O MQTT é um de protocolo de mensagens leves muito utilizado em Internet das Coisas (IoT - Internet of Things). 
-
-Sua comunicação é feita via tópicos, nos quais é possível publicar ou se inscrever, mediante a utilização servidor broker
+O MQTT é um de protocolo de mensagens leves muito utilizado em Internet das Coisas (IoT - Internet of Things). A estrutura de comunicação é feita por meio de tópicos, os quais são endpoints onde podemos publicar ou ler uma variável no servidor Broker.
 
 Para mais informações, acesse a [documentação do MQTT](https://mqtt.org/)
 
@@ -110,4 +108,6 @@ Para mais informações, acesse a [documentação do MQTT](https://mqtt.org/)
 
 Foi utilizado no projeto o [HiveMQ](https://mqtt.org/), um broker público e gratuito, que também possui um _Client_, no qual é possível publicar e se inscrever em tópicos, possibilitando a conexão via internet.
 
-A configuração do Broker é bastante intuitiva, bastando criar uma conta e depois seguir as indicações para criar os tópicos. Crie um tópico para cada medida/variável e depois coloque os endereços nos nós do servidor Node-RED conforme descrito acima.
+A configuração do Broker é bastante intuitiva, bastando criar uma conta e depois seguir as indicações para criar os tópicos. Crie um tópico para cada medida/variável e depois coloque os endereços nos nós do servidor Node-RED conforme descrito acima. 
+
+Para variáveis de interação com o sistema Arduíno é necessário criar um fluxo de entrada conforme o da Figura 9 e depois tratar essa variável no código do Arduíno conforme a varíavel _mqttCommmand_ do código desse projeto.
